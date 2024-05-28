@@ -16,6 +16,6 @@ router.use("/programs", programsRouter)
 
 const categoryRouter = require('./categories/router')
 
-router.use('/category', categoryRouter)
+router.use('/categories', categoryRouter)
 // ...
 module.exports = router;
